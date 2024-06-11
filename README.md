@@ -1,6 +1,6 @@
-# Yale SWE CAS Auth Example App
+Lauren Lee, Aniketh Malyala, Raymond Hou
 
-## Overview
+## authentication
 
 CAS stands for Central Authentication System. When creating apps for this course, you may find the need to authenticate students using Yale's CAS (ex. CourseTable). This example project uses Yale CAS to implement a simple sign-in/sign-out.
 
