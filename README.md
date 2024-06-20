@@ -1,4 +1,4 @@
-Lauren Lee, Aniketh Malyala, Raymond Hou
+Lauren Lee, Aniketh Malyala, Raymond Hou, Grady Yu
 
 ## authentication
 
