@@ -1,18 +1,29 @@
 {
-  "name": "cas-auth-example-express",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:yale-swe/cas-auth-example-express.git",
-  "author": "wu-json",
-  "license": "MIT",
+  "name": "HandsomeDanTracker",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "build:client": "cd client && yarn build",
-    "build:server": "cd server && yarn build",
-    "clean:all": "rm -rf node_modules && cd server && rm -rf node_modules && cd ../client && rm -rf node_modules",
-    "install:all": "yarn && cd server && yarn && cd ../client && yarn",
-    "install:client": "cd client && yarn",
-    "install:server": "cd server && yarn",
-    "dev:client": "cd client && yarn start",
-    "dev:server": "cd server && yarn dev"
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.68.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/runtime": "^7.24.7",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.5.0",
+    "jest": "^29.7.0",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }
