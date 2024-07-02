@@ -21,6 +21,30 @@ npx react-native run-ios
 
 useful link: https://medium.com/swlh/creating-an-application-with-react-native-f31f9a6f2859
 
+--
+what worked for raymond in the end
+--
+
+1. go to root directory
+2. npm install -g react-native-cli
+3. npx react-native init HandsomeDanTracker (idk if this is needed cuz i don't use this directory later)
+4. cd HandsomeDanTracker
+5. sudo gem install cocoapods
+6. npm i
+7. (useful bit prolly starts here) npx react-native@latest init hd
+8. press y
+9. if prompted to install cocoapods here, press y (still gonna install it manually again later)
+10. cd hd
+11. cd ios
+12. pod install
+13. npx react-native start
+14. press i for ios dev
+15. open new terminal window
+16. in new window, go to hd directory (don't go into ios directory)
+17. make sure using compatible node.js version (nvm ls to see installed versions, nvm use [version] to switch to a dfif version, nvm install [version] if don't have)
+18. npx react-native run-ios
+19. make sure ur ios version on XCode Simulator app is 17.5 (for now it works, might need to be updated for future notice)
+
 ## authentication
 
 CAS stands for Central Authentication System. When creating apps for this course, you may find the need to authenticate students using Yale's CAS (ex. CourseTable). This example project uses Yale CAS to implement a simple sign-in/sign-out.
