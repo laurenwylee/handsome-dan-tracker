@@ -19,6 +19,8 @@ Run app:
 npx react-native start
 npx react-native run-ios
 
+useful link: https://medium.com/swlh/creating-an-application-with-react-native-f31f9a6f2859
+
 ## authentication
 
 CAS stands for Central Authentication System. When creating apps for this course, you may find the need to authenticate students using Yale's CAS (ex. CourseTable). This example project uses Yale CAS to implement a simple sign-in/sign-out.
