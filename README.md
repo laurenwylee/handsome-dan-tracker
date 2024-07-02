@@ -1,5 +1,24 @@
 Lauren Lee, Aniketh Malyala, Raymond Hou, Grady Yu
 
+## building the app using xcode
+
+go to root of terminal
+
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -license accept
+npx react-native init HandsomeDanTracker --version 0.68.0
+cd HandsomeDanTracker
+cd ios
+
+---installing pods / cocoapods--
+pod install
+OR
+sudo gem install cocoapods
+
+Run app:
+npx react-native start
+npx react-native run-ios
+
 ## authentication
 
 CAS stands for Central Authentication System. When creating apps for this course, you may find the need to authenticate students using Yale's CAS (ex. CourseTable). This example project uses Yale CAS to implement a simple sign-in/sign-out.
