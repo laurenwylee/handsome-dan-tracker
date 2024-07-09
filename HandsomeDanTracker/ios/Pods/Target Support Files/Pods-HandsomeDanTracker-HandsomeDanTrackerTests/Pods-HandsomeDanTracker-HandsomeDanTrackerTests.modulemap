@@ -1,6 +1,0 @@
-module Pods_HandsomeDanTracker_HandsomeDanTrackerTests {
-  umbrella header "Pods-HandsomeDanTracker-HandsomeDanTrackerTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
